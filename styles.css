@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+header p{
+    font-size: 24px;
+}
+
+header nav a{
+    color: #f9faf8;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* styling of first section */
+
+.One{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+ .One .text{
+    width: 35%;
+    line-height: 22px;
+ }
+
+ .One .image img{
+    width: 250px;
+ }
+ .text h1{
+    font-size: 48px;
+    line-height: 45px;
+    margin-bottom: 10px;
+ }
+
+ .text p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 18px;
+ }
+
+ a.btn{
+    text-decoration: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    border-radius: 10px;
+ }
+ a.btn:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+ }
+
+ /* styling section Two.. */
+
+ .Two{
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 60%;
+ }
+
+.Two .text2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+ .card img{
+    width: 200px;
+ }
+
+ .card p{
+    text-align: left;
+    width: 160px;
+ }
+
+ .Two .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ /* section three styling.... */
+
+ .Third{
+    height: 50%;
+    background-color: #e5e7eb;
+    display: flex;
+ }
+
+ blockquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+    margin: auto;
+ }
+
+ blockquote span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+ }
+
+ /* styling of section four */
+
+ .Four{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Four .call-container{
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .call-text .top{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .call-text .bottom{
+    color: #e5e7eb;
+ }
+
+ .btn1 button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid #f9faf8;
+ }
+
+/* footer */
+
+footer{
+    background-color: #1f2937;
+    padding: 10px;
+    text-align: center;
+    color: #f9faf8;
+}
